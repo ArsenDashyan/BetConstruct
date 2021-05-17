@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop", "Loop\Loop.csproj", "{7AF71EF2-30AE-4A7B-8DC2-895C8AC3B9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopLibrary", "LoopLibrary\LoopLibrary.csproj", "{EFB46025-FAB0-48D8-9E88-FF4099A8C90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF71EF2-30AE-4A7B-8DC2-895C8AC3B9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF71EF2-30AE-4A7B-8DC2-895C8AC3B9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF71EF2-30AE-4A7B-8DC2-895C8AC3B9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF71EF2-30AE-4A7B-8DC2-895C8AC3B9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB46025-FAB0-48D8-9E88-FF4099A8C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB46025-FAB0-48D8-9E88-FF4099A8C90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB46025-FAB0-48D8-9E88-FF4099A8C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB46025-FAB0-48D8-9E88-FF4099A8C90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409DA8F7-B9CD-49F8-8C71-EDB7D1C79B09}
+	EndGlobalSection
+EndGlobal
