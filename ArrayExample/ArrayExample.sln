@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExample\ArrayExample.csproj", "{C18F7DA2-9AD0-4D2F-A6F9-3E05F0150DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step", "StepA\Step.csproj", "{285B6A54-25E5-4B02-926C-530CE9925342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{0D7F4454-F35E-4969-A707-DB6CE007DBD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18F7DA2-9AD0-4D2F-A6F9-3E05F0150DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18F7DA2-9AD0-4D2F-A6F9-3E05F0150DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18F7DA2-9AD0-4D2F-A6F9-3E05F0150DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18F7DA2-9AD0-4D2F-A6F9-3E05F0150DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285B6A54-25E5-4B02-926C-530CE9925342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285B6A54-25E5-4B02-926C-530CE9925342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285B6A54-25E5-4B02-926C-530CE9925342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285B6A54-25E5-4B02-926C-530CE9925342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7F4454-F35E-4969-A707-DB6CE007DBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7F4454-F35E-4969-A707-DB6CE007DBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7F4454-F35E-4969-A707-DB6CE007DBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7F4454-F35E-4969-A707-DB6CE007DBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4F9060E-8B92-43A6-8042-1105261BEBAA}
+	EndGlobalSection
+EndGlobal
