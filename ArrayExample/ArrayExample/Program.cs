@@ -11,6 +11,8 @@ namespace ArrayExample
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            #region Step A
+
             Console.WriteLine("Երկչափ զանգված \n");
 
             int[,] array = new int[3, 3];
@@ -25,6 +27,14 @@ namespace ArrayExample
             StepA.GetMaxItemInTwoD(array); //ex 3
 
             StepA.GetMaxItemInCurrentColumnTwoD(array, 2); //ex 4
+
+            var resultOneB = StepB.GetArrayByMultipleItemTwoD(array, 4); // Step B ex 3
+            Console.WriteLine("Զանգվածի կրկնվող արժեքներից ստացված զանգված");
+            resultOneB.PrintArray();
+
+            var resultOneByMaxTwo = StepB.GetArrayByMaxItemsInTwoD(array); // Step B ex 4 
+            Console.WriteLine("Տողի մեծագույն արժեքներից ստացված զանգված");
+            resultOneByMaxTwo.PrintArray();
 
             Console.WriteLine(new string('-', 30));
             Console.WriteLine();
@@ -43,6 +53,14 @@ namespace ArrayExample
 
             StepA.GetMaxItemInCurrentColumnJagged(arrayJ, 2); //ex 4
 
+            var resultOneBJagged = StepB.GetArrayByMultipleItemJagged(arrayJ, 4); // Step B ex 3
+            Console.WriteLine("Զանգվածի կրկնվող արժեքներից ստացված զանգված");
+            resultOneBJagged.PrintArray();
+
+            var resultOneByMaxJ = StepB.GetArrayByMaxItemsInJagged(arrayJ); // Step B ex 4 
+            Console.WriteLine("Տողի մեծագույն արժեքներից ստացված զանգված");
+            resultOneByMaxJ.PrintArray();
+
             Console.WriteLine(new string('-', 30));
             Console.WriteLine();
             Console.WriteLine("Միաչափ զանգված \n");
@@ -57,6 +75,30 @@ namespace ArrayExample
             StepA.BubbleSort(arrayOne); //ex 6
             Console.WriteLine("Սորտավորված զանգված");
             arrayOne.PrintArray();
+
+            #endregion
+
+            #region Step B
+
+            Console.WriteLine(new string('-', 30));
+            Console.WriteLine();
+            Console.WriteLine("Միաչափ զանգված \n");
+
+            int[] arr = new int[30];
+            arr.InitializeArray();
+            arr.PrintArray();
+            Console.WriteLine("Սորտավորված զանգված");
+            StepA.BubbleSort(arr);
+            arr.PrintArray();
+
+            var tupl = StepB.RemoveRecurringItem(arr,1); //ex 1,2
+            tupl.Item1.PrintArray();
+
+            Console.WriteLine("Կրկնվող տարրեր");
+            tupl.Item2.PrintArray();
+
+
+            #endregion
 
             Console.ReadLine();
         }

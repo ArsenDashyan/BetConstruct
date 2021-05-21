@@ -95,5 +95,22 @@ namespace Utility
             Console.WriteLine("\n");
         }
 
+        /// <summary>
+        /// Get maximum item in input array
+        /// </summary>
+        /// <param name="array">Input array</param>
+        public static int GetMaxItemInArray(this int[] array)
+        {
+            int max = array[0];
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i] > max)
+                {
+                    max = array[i];
+                }
+            }
+            return max;
+        }
+
     }
 }

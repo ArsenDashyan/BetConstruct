@@ -152,7 +152,7 @@ namespace Step
                     if (array[column - 1, i] > max)
                         max = array[column - 1, i];
                 }
-                Console.WriteLine($"{column} տողի մեծագույն էլեմենտն է {max}\n");
+                Console.WriteLine($"{column}-րդ տողի մեծագույն էլեմենտն է {max}\n");
             }
         }
 
@@ -173,7 +173,7 @@ namespace Step
                     if (array[column - 1][i] > max)
                         max = array[column - 1][i];
                 }
-                Console.WriteLine($"{column} տողի մեծագույն էլեմենտն է {max}\n");
+                Console.WriteLine($"{column}-րդ տողի մեծագույն էլեմենտն է {max}\n");
             }
         }
 
